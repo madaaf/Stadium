@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Stadium</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Time -->
+    <string name="ntp_time">ntp_time_key</string>
+
+    <!--NTP HOST -->
+    <string name="ntp_host">192.168.1.90</string>
+    <!--<string name="ntp_host">3.europe.pool.ntp.org</string>-->
+
+    <!--API URL-->
+    <string name="api_time_start">http://192.168.1.90:8080/time/</string>
+    <string name="api_user">http://192.168.10.78:8080/api/users/</string>
+    <string name="api_image">http://192.168.1.90:80/data/stadium_34/</string>
+
+    <!-- PATH SDCARD -->
+    <string name="sdcard_path">/storage/sdcard0/Stadium2/</string>
+    <string name="sdcard_image">/storage/sdcard0/Stadium2/image.serial</string>
+
+    <!-- ERROR MESSAGE -->
+    <string name="error_internet">Connectez vous à internet.</string>
+</resources>

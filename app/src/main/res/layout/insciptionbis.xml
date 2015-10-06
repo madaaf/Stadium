@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+
+
+    <TextView
+        android:id="@+id/inscriptionStadium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stadium"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:textSize="55dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/ly"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300px"
+        android:layout_marginRight="40px"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="X"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/inscription_x"
+            android:layout_width="100dp"
+            android:layout_height="33dp"
+            android:hint="     x"
+            android:layout_marginLeft="15dp"
+            android:inputType="number"
+            android:background="@drawable/edit_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Y"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/inscription_y"
+            android:layout_width="100dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="15dp"
+            android:hint="      y"
+            android:inputType="number"
+            android:background="@drawable/edit_text"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/inscription_button"
+        android:layout_width="fill_parent"
+        android:layout_height="33dp"
+        android:layout_marginTop="60px"
+        android:layout_marginRight="40px"
+        android:layout_marginLeft="40px"
+        android:background="@drawable/round_button"
+        android:layout_below="@id/ly"
+        android:text="Valider"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"/>
+</LinearLayout>
